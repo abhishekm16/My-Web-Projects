@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+html,body{
+    font-size: 16px;
+    height: 100%;
+}
+/* Division Section */
+
+.div-1{
+    background-image: linear-gradient(rgba(4,9,30,0.2),rgba(4,9,30,0.2)), url(/img/city.jpg);
+    min-height: 100%;
+}
+.div-2{
+    background-image: linear-gradient(rgba(4,9,30,0.2),rgba(4,9,30,0.2)), url(/img/landscape.jpg);
+    min-height: 400px;
+}
+.div-3{
+    background-image: linear-gradient(rgba(4,9,30,0.2),rgba(4,9,30,0.2)), url(/img/cyber.jpg);
+    min-height: 400px;
+}
+.div-4{
+    background-image: linear-gradient(rgba(4,9,30,0.2),rgba(4,9,30,0.2)), url(/img/img/image3.jpg);
+    min-height: 100%;
+}
+.img{
+    background-size: cover;
+    opacity: 0.7;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.text{
+    text-align: center;
+    padding-top: 200px;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.text2{
+    text-align: center;
+    padding-top: 330px;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.border{
+    background-color:#111;
+    color:#fff;
+    padding:20px;
+}
+.border2{
+    color: white;
+}
+
+/* Section */
+
+.section{
+    text-align: center;
+    padding: 50px 80px;
+}
+.light{
+    background-color: rgb(255, 255, 255);
+    color: #666;
+}
+.dark{
+    background-color:#282e34;
+    color:#ddd;
+}
+@media (max-width: 568px){
+    .div-1,.div-2,.div-3,.div-4{
+        background-attachment: scroll;
+    }
+
+}
